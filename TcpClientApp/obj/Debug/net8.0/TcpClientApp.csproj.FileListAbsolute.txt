@@ -1,0 +1,15 @@
+D:\work\personal projects\TcpClientApp\bin\Debug\net8.0\TcpClientApp.exe
+D:\work\personal projects\TcpClientApp\bin\Debug\net8.0\TcpClientApp.deps.json
+D:\work\personal projects\TcpClientApp\bin\Debug\net8.0\TcpClientApp.runtimeconfig.json
+D:\work\personal projects\TcpClientApp\bin\Debug\net8.0\TcpClientApp.dll
+D:\work\personal projects\TcpClientApp\bin\Debug\net8.0\TcpClientApp.pdb
+D:\work\personal projects\TcpClientApp\obj\Debug\net8.0\TcpClientApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\personal projects\TcpClientApp\obj\Debug\net8.0\TcpClientApp.AssemblyInfoInputs.cache
+D:\work\personal projects\TcpClientApp\obj\Debug\net8.0\TcpClientApp.AssemblyInfo.cs
+D:\work\personal projects\TcpClientApp\obj\Debug\net8.0\TcpClientApp.csproj.CoreCompileInputs.cache
+D:\work\personal projects\TcpClientApp\obj\Debug\net8.0\TcpClientApp.dll
+D:\work\personal projects\TcpClientApp\obj\Debug\net8.0\refint\TcpClientApp.dll
+D:\work\personal projects\TcpClientApp\obj\Debug\net8.0\TcpClientApp.pdb
+D:\work\personal projects\TcpClientApp\obj\Debug\net8.0\TcpClientApp.genruntimeconfig.cache
+D:\work\personal projects\TcpClientApp\obj\Debug\net8.0\ref\TcpClientApp.dll
+D:\work\personal projects\TcpClientApp\obj\Debug\net8.0\TcpClientApp.sourcelink.json
