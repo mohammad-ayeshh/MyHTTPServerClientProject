@@ -3,15 +3,11 @@ using System.Text;
 
 public class Request
 {
-    // Properties for the request line
+    // request line
     public string HTTPMethod { get; set; }
     public string RequestTarget { get; set; }
     public string HTTPVersion { get; set; }
-
-    // Body of the request
     public string Body { get; set; }
-
-    // Optional headers
     public Dictionary<string, string> Headers { get; set; }
 
     // Constructor to initialize a request manually (useful for the client-side)
@@ -27,7 +23,7 @@ public class Request
     // Constructor to parse raw HTTP request strings (useful for server-side)
     public Request(string rawRequest)
     {
-        // Split the request into sections: headers and body
+        // Split the request into sections: headers and body, what splits them is the "\r\n\r\n" in the end of the headers
         string[] requestSections = rawRequest.Split(new[] { "\r\n\r\n" }, 2, StringSplitOptions.None);
         string headerSection = requestSections[0];
         Body = requestSections.Length > 1 ? requestSections[1] : string.Empty;
@@ -35,7 +31,7 @@ public class Request
         // Split header section into lines
         string[] lines = headerSection.Split("\r\n");
 
-        // Parse the request line (first line)
+        // Parse the request line (first line), first line has the http method, and the path(target), and the http version
         string[] requestLineParts = lines[0].Split(" ");
         if (requestLineParts.Length != 3)
         {
